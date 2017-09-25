@@ -22,10 +22,10 @@ instructions and the agreed upon price for a radish. An endorsement policy has
 also been set for this chaincode, stating that both ``peerA`` and ``peerB`` must endorse
 any transaction.
 
-.. image:: images/step1.png
+
 
 1. **Client A initiates a transaction**
-
+.. image:: images/step1.png
 What's happening? - Client A is sending a request to purchase radishes.  The
 request targets ``peerA`` and ``peerB``, who are respectively representative of
 Client A and Client B. The endorsement policy states that both peers must endorse
